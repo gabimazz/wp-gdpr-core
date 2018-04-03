@@ -23,7 +23,7 @@ msgstr ""
 
 #: config/startup-config.php:50
 msgid "GDPR - Request personal data"
-msgstr "GDPR -Richiedi dati personali"
+msgstr "GDPR - Richiedi i tuoi dati personali"
 
 #: controller/controller-comments.php:113
 #: controller/controller-menu-page.php:269
@@ -33,8 +33,10 @@ msgid ""
 "the comments placed on the website. For more info check our privacy policy "
 "where you'll get more info on where, how and why we store your data."
 msgstr ""
-"Questo modulo raccoglie il tuo nome, email e contenuto in modo che possiamo "
+"Questo modulo raccoglie il tuo nome, email e altri dati per consentirci di "
 "tenere traccia dei commenti inseriti sul sito web."
+"Per maggiori informazioni vai alla nostra Informativa sulla privacy "
+"dove avrai maggiori informazioni su dove, come e perché memorizziamo i tuoi dati."
 
 #: controller/controller-comments.php:200
 #: controller/controller-comments.php:205
@@ -54,7 +56,7 @@ msgstr "Email non valida"
 
 #: controller/controller-comments.php:247
 msgid "Comment is changed"
-msgstr ""
+msgstr "Il commento è stato modificato"
 
 #: controller/controller-comments.php:329
 msgid "name"
@@ -80,7 +82,7 @@ msgstr "data del commento"
 
 #: controller/controller-comments.php:374
 msgid "author email"
-msgstr "autore e-mail"
+msgstr "e-mail autore"
 
 #: controller/controller-comments.php:375
 msgid "author name"
@@ -101,7 +103,7 @@ msgstr "cancella"
 
 #: controller/controller-comments.php:474
 msgid "The site administrator received your request. Thank You."
-msgstr ""
+msgstr "L'amministratore del sito ha ricevuto la tua richiesta. Grazie"
 
 #: controller/controller-comments.php:482
 msgid "New delete request"
@@ -117,7 +119,7 @@ msgstr "I commenti sono anonimi"
 
 #: controller/controller-menu-page.php:119
 msgid "We confirm Your data deletion request"
-msgstr "Confermiamo la richiesta di cancellazione dei dati"
+msgstr "Confermiamo la tua richiesta di cancellazione dei dati"
 
 #: controller/controller-menu-page.php:230
 msgid "Comment author"
@@ -133,7 +135,7 @@ msgstr "Richiesta inviata"
 
 #: controller/controller-menu-page.php:265
 msgid "Checkbox GDPR is required"
-msgstr "Questa casella GDPR è richiesta"
+msgstr "Spuntare la casella GDPR è obbligatorio"
 
 #: controller/controller-menu-page.php:273
 msgid "I agree"
@@ -147,9 +149,11 @@ msgid ""
 "            For more info check our privacy policy where you'll get more "
 "info on where, how and why we store your data."
 msgstr ""
-"Acconsento al fatto che %s ritiri la mia email in modo che possa inviarmi le "
-"mie informazioni richieste\n"
+"Acconsento che %s raccolga la mia email in modo che possa inviarmi le "
+"informazioni richieste\n"
 "            "
+"Consulta la nostra informativa sulla privacy per maggiori informazioni su dove, "
+"come e perché memorizziamo i tuoi dati."
 
 #: controller/controller-menu-page.php:306
 #, fuzzy
@@ -158,7 +162,7 @@ msgstr "Non mostrare il numero di commenti"
 
 #: controller/controller-menu-page.php:311
 msgid "Set Your DPO e-mail address"
-msgstr ""
+msgstr "Imposta l'indirizzo email del DPO"
 
 #: controller/controller-menu-page.php:358
 #: controller/controller-menu-page.php:609
@@ -181,7 +185,7 @@ msgstr "lingua"
 
 #: controller/controller-menu-page.php:363
 msgid "resend email"
-msgstr "Rinvia l’e-mail"
+msgstr "Invia di nuovo l’e-mail"
 
 #: controller/controller-menu-page.php:413
 msgid "comments"
@@ -201,7 +205,7 @@ msgstr "woocommerce"
 
 #: controller/controller-menu-page.php:462
 msgid "waiting for email"
-msgstr ""
+msgstr "in attesa dell'email"
 
 #: controller/controller-menu-page.php:465
 msgid "email sent"
@@ -233,7 +237,7 @@ msgstr "seleziona"
 
 #: controller/controller-menu-page.php:639
 msgid "waiting to process"
-msgstr ""
+msgstr "in attesa di elaborazione"
 
 #: controller/controller-menu-page.php:642
 msgid "deleted"
@@ -257,7 +261,7 @@ msgstr "Impostazioni salvate"
 
 #: lib/gdpr-form-builder.php:33
 msgid "Request add-on for your plugin"
-msgstr ""
+msgstr "Richiedi un add-on per il tuo plugin"
 
 #: lib/gdpr-form-builder.php:35 view/front/form.php:8
 msgid "Email"
@@ -268,15 +272,16 @@ msgstr "Email"
 msgid ""
 "This form collects your email so that we can keep you updated about your "
 "request. Check out our %s for more information."
-msgstr ""
+msgstr "Con questo form raccogliamo la tua email per tenerti aggiornato sulla tua richiesta. "
+"Vedi %s per maggiori informazioni"
 
 #: lib/gdpr-form-builder.php:39
 msgid "privacy policy"
-msgstr "politica sulla riservatezza"
+msgstr "Informativa sulla privacy"
 
 #: lib/gdpr-form-builder.php:43
 msgid "I consent to having WP-GDPR collect my email when provided."
-msgstr ""
+msgstr "Acconsento che WP-GDPR racoolga i miei dati"
 
 #: lib/gdpr-form-builder.php:44
 msgid "submit"
@@ -284,7 +289,7 @@ msgstr "invia"
 
 #: lib/gdpr-menu-backend.php:26
 msgid "List of data requests"
-msgstr ""
+msgstr "Elenco delle richieste di dati"
 
 #: lib/gdpr-menu-backend.php:27 view/admin/menu/delete-page.php:12
 msgid "List of delete requests"
@@ -314,12 +319,12 @@ msgstr "Elimina dati personali"
 
 #: view/admin/delete-comments-form.php:9
 msgid "Make personal data anonymous"
-msgstr ""
+msgstr "Rendi i dati personali anonimi"
 
 #: view/admin/email-confirmation-content.php:114
 #: view/front/email-template.php:103
 msgid "Request to view your personal data"
-msgstr ""
+msgstr "Richiedi di vedere i tuoi dati personali"
 
 #: view/admin/email-confirmation-content.php:126
 #: view/admin/email-delete-request.php:126 view/front/email-template.php:112
@@ -328,7 +333,7 @@ msgstr "Spett.le"
 
 #: view/admin/email-confirmation-content.php:128
 msgid "You asked to delete your personal data at "
-msgstr ""
+msgstr "Hai chiesto di cancellare i tuoi dati personali presso"
 
 #: view/admin/email-confirmation-content.php:129
 msgid "Website:"
@@ -340,7 +345,7 @@ msgid "Date of request:"
 msgstr "Data della richiesta"
 
 #: view/admin/email-confirmation-content.php:131
-msgid "Your requests is approved and data was successfully deleted today."
+msgid "Your requests are approved and data was successfully deleted today."
 msgstr ""
 "Le tue richieste sono approvate e i dati sono stati cancellati con successo "
 "oggi."
@@ -352,19 +357,19 @@ msgstr "Grazie per averci contattato."
 
 #: view/admin/email-confirmation-content.php:146
 msgid "List of processed data"
-msgstr ""
+msgstr "Elenco dei dati elaborati"
 
 #: view/admin/email-delete-request.php:114
 msgid "Request to delete personal data"
-msgstr ""
+msgstr "Richiesta di cancellazione dei dati personali"
 
 #: view/admin/email-delete-request.php:128
 msgid "asked to delete his/her personal data."
-msgstr "chiesto di cancellare i suoi dati personali."
+msgstr "ha chiesto di cancellare i suoi dati personali."
 
 #: view/admin/email-delete-request.php:132
 msgid "Check all requests"
-msgstr ""
+msgstr "Controlla tutte le richieste"
 
 #: view/admin/menu/data-page.php:7
 msgid "List of users that requested for information"
@@ -372,7 +377,7 @@ msgstr "Elenco degli utenti che hanno richiesto informazioni"
 
 #: view/admin/menu/help_page.php:7
 msgid "On this page will come info and help for the plugin"
-msgstr ""
+msgstr "Questa pagina è dedicata a informazioni e aiuti sul plugin"
 
 #: view/admin/menu/plugin-page.php:12
 msgid "List of plugins that store data of users"
@@ -385,7 +390,7 @@ msgstr "Aggiorna impostazioni"
 #: view/admin/menu/settings-page.php:13
 #, fuzzy
 msgid "Privacy policy setting"
-msgstr "Informativa Privacy"
+msgstr "Impostazioni per Informativa Privacy"
 
 #: view/admin/menu/settings-page.php:16
 msgid "Settings:"
@@ -393,30 +398,30 @@ msgstr "Impostazioni:"
 
 #: view/admin/privacy-policy-form.php:7
 msgid "Settings for comment forms"
-msgstr ""
+msgstr "Imoostazioni per i form dei commenti"
 
 #: view/admin/privacy-policy-form.php:9
 #, fuzzy
 msgid "Privacy policy label"
-msgstr "Informativa Privacy"
+msgstr "Informativa Privacy etichetta"
 
 #: view/admin/privacy-policy-form.php:13 view/admin/privacy-policy-form.php:36
 #, fuzzy
 msgid "Privacy policy text"
-msgstr "Informativa Privacy"
+msgstr "Informativa Privacy testo"
 
 #: view/admin/privacy-policy-form.php:30
 #, fuzzy
 msgid "Privacy policy checkbox"
-msgstr "Informativa Privacy"
+msgstr "Informativa Privacy checkbox"
 
 #: view/admin/privacy-policy-form.php:34
 msgid "Settings for personal data request page"
-msgstr ""
+msgstr "Impostazioni per la pagina di richiesta dei dati personali"
 
 #: view/admin/privacy-policy-form.php:52
 msgid "Update privacy policy settings"
-msgstr ""
+msgstr "Aggiorna le impostazioni dell'informativa sulla privacy"
 
 #: view/admin/small-form-delete-request.php:9
 msgid "Send delete request"
@@ -424,24 +429,24 @@ msgstr "Invia richiesta di cancellazione"
 
 #: view/admin/small-form-delete-request.php:10
 msgid "Download comments"
-msgstr ""
+msgstr "Scarica i commenti"
 
 #: view/admin/small-form.php:9
 msgid "Resend emails"
-msgstr "Invia di nuovo e-mail"
+msgstr "Invia di nuovo le-mail"
 
 #: view/front/email-template.php:113
 msgid ""
 "You asked to access your personal data. By clicking on the button you can "
 "view or delete your comments created on the website:"
 msgstr ""
-"Hai chiesto di accedere ai tuoi dati personali. Facendo clic sul pulsante è "
-"possibile visualizzare o eliminare i commenti creati sul sito Web:"
+"Hai chiesto di accedere ai tuoi dati personali. Facendo clic sul pulsante puoi "
+"visualizzare o eliminare i commenti creati sul sito Web:"
 
 #: view/front/email-template.php:121
 #, fuzzy
 msgid "Check your personal data"
-msgstr "I tuoi dati personali"
+msgstr "Controlla i tuoi dati personali"
 
 #: view/front/form.php:17
 msgid "Submit"
@@ -464,7 +469,7 @@ msgstr ""
 
 #: view/front/form.php:22
 msgid "This link will become deprecated after 48 hours."
-msgstr ""
+msgstr "Questo link scadrà dopo 48 ore."
 
 #: view/front/gdpr-template.php:7
 msgid "View Comments"
@@ -472,20 +477,20 @@ msgstr "Visualizza Commenti"
 
 #: view/front/gdpr-template.php:16
 msgid "All comments added by email address"
-msgstr ""
+msgstr "Tutti i commenti aggiunti tramite email"
 
 #. Plugin Name of the plugin/theme
 msgid "WP GDPR"
-msgstr "GDPR"
+msgstr "WP GDPR"
 
 #. Description of the plugin/theme
 msgid "Help to handle gdpr regulations."
-msgstr ""
+msgstr "Supporto per gestire la normativa GDPR"
 
 #. Author of the plugin/theme
 msgid "AppSaloon"
-msgstr "TAGIT"
+msgstr "AppSaloon"
 
 #. Author URI of the plugin/theme
 msgid "https://www.appsaloon.be"
-msgstr "https://www.tagitadv.it"
+msgstr "https://www.appsaloon.be"
